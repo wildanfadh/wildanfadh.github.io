@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>wildanfadh Profile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -75,7 +75,7 @@
 								<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://twitter.com/Fadhwildan2"><i class="icon-twitter2"></i></a></li>
-									<li><a href="https://twitter.com/Fadhwildan2"><i class="icon-instagram2"></i></a>
+									<li><a href="https://www.instagram.com/fadhwildan/"><i class="icon-instagram2"></i></a>
 									</li>
 									<li><a href="https://www.facebook.com/wildanfadh77"><i class="icon-facebook2"></i></a></li>
 									<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"><i class="icon-linkedin2"></i></a></li>
@@ -122,7 +122,7 @@
 						<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="https://twitter.com/Fadhwildan2"><i class="icon-twitter2"></i></a></li>
-							<li><a href="https://twitter.com/Fadhwildan2"><i class="icon-instagram2"></i></a>
+							<li><a href="https://www.instagram.com/fadhwildan/"><i class="icon-instagram2"></i></a>
 							</li>
 							<li><a href="https://www.facebook.com/wildanfadh77"><i class="icon-facebook2"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"><i class="icon-linkedin2"></i></a></li>
@@ -615,7 +615,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
