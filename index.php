@@ -4,11 +4,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>wildanfadh Profile</title>
+	<title>Wildanfadh Profile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
+	<link rel="icon" type="image/x-icon" href="images/logo.png">
 
 	<!-- 
 	//////////////////////////////////////////////////////
@@ -114,11 +115,11 @@
 						<!-- <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the
 							blind texts. Separated they live in bookmarksgrove there live the blind texts far from the
 							countries.</p> -->
-						<p>I'm Programmer with 2 years of experience using JavaScript and PHP to develop, test and
-							observe
-							enterprise software applications. Has designed and developed more than 10 applications to
+						<p>I'm Programmer with 2 years experience using JavaScript and PHP to develop, test and observe
+							Enterprise software applications. Has designed and developed more than 10 applications to
 							improve
-							efficiency and data management for the Company. Looking for a startup technology company</p>
+							efficiency and data management for the Company. Look for companies that implement remote
+							work.</p>
 						<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="https://twitter.com/Fadhwildan2"><i class="icon-twitter2"></i></a></li>
@@ -393,7 +394,8 @@
 						<a href="https://jdih.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/jdih.png);">
 							<div class="desc">
 								<h3>JDIH</h3>
-								<span>Sistem Informasi Manajemen Jaringan Dokumentasi dan Informasi Hukum Kota Mojokerto</span>
+								<span>Sistem Informasi Manajemen Jaringan Dokumentasi dan Informasi Hukum Kota
+									Mojokerto</span>
 							</div>
 						</a>
 					</div>
@@ -401,7 +403,9 @@
 						<a href="http://simple.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/simple.png);">
 							<div class="desc">
 								<h3>Simple</h3>
-								<span>Sistem Informasi Manajemen Plan Center adalah Sistem Informasi yang membantu menyediakan data dan informasi pembangunan daerah, sebagai bahan dokumen perencanaan.
+								<span>Sistem Informasi Manajemen Plan Center adalah Sistem Informasi yang membantu
+									menyediakan data dan informasi pembangunan daerah, sebagai bahan dokumen
+									perencanaan.
 								</span>
 							</div>
 						</a>
@@ -434,7 +438,8 @@
 						<a href="http://magis.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/magis.png);">
 							<div class="desc">
 								<h3>Magis</h3>
-								<span>Sistem Informasi yang menyajikan data dan informasi geospasial yang mendukung proses perencanaan pembangunan.</span>
+								<span>Sistem Informasi yang menyajikan data dan informasi geospasial yang mendukung
+									proses perencanaan pembangunan.</span>
 							</div>
 						</a>
 					</div>
@@ -442,7 +447,8 @@
 						<a href="http://sibima.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/sibima.png);">
 							<div class="desc">
 								<h3>Si Bima Majapahit</h3>
-								<span>Sistem Informasi Bina Marga Menjaga Jalan Mantap Dengan Aksi Pembangunan Dan Pemeliharaan Infrastruktur Terencana Dinas PUPR Kota Mojokerto</span>
+								<span>Sistem Informasi Bina Marga Menjaga Jalan Mantap Dengan Aksi Pembangunan Dan
+									Pemeliharaan Infrastruktur Terencana Dinas PUPR Kota Mojokerto</span>
 							</div>
 						</a>
 					</div>
@@ -458,7 +464,8 @@
 						<a href="http://veronja.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/veronja2.png);">
 							<div class="desc">
 								<h3>Veronja</h3>
-								<span>Sistem Informasi Verifikasi Online Pertangungjawaban Belanja Bappedalitbang Kota Mojokerto</span>
+								<span>Sistem Informasi Verifikasi Online Pertangungjawaban Belanja Bappedalitbang Kota
+									Mojokerto</span>
 							</div>
 						</a>
 					</div>
@@ -474,7 +481,8 @@
 						<a href="http://pintar-moker.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/pintarmoker.png);">
 							<div class="desc">
 								<h3>PintarMoker</h3>
-								<span>Sistem Informasi Tata Ruang yang mudah diakses oleh Masyarakat, yang berfungsi sebagai perencanaan, pemanfaatan dan pengendalian tata ruang</span>
+								<span>Sistem Informasi Tata Ruang yang mudah diakses oleh Masyarakat, yang berfungsi
+									sebagai perencanaan, pemanfaatan dan pengendalian tata ruang</span>
 							</div>
 						</a>
 					</div>
@@ -483,6 +491,14 @@
 							<div class="desc">
 								<h3>Dikupasi Mobile</h3>
 								<span>Sistem Informasi Pendataan IKM/UMKM, Perdagangan dan Koperasi</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://drive.google.com/drive/folders/1VV8eRshOA8E6wdp3j0492kN9R8YHZP0m?usp=sharing" class="work" style="background-image: url(images/portofolio/sipandu_mobile.jpg);">
+							<div class="desc">
+								<h3>Sipandu Mobile</h3>
+								<span>Sistem Informasi Penanggulangan Kemiskinan Terpadu Mobile (Unpublished)</span>
 							</div>
 						</a>
 					</div>
