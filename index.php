@@ -478,7 +478,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://pintar-moker.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/pintarmoker.png);">
+						<a href="http://pintarmoker.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/pintarmoker.png);">
 							<div class="desc">
 								<h3>PintarMoker</h3>
 								<span>Sistem Informasi Tata Ruang yang mudah diakses oleh Masyarakat, yang berfungsi
