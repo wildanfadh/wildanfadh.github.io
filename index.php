@@ -7,7 +7,8 @@
 	<title>Wildanfadh Profile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="keywords"
+		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
 	<link rel="icon" type="image/x-icon" href="images/logo.png">
 
@@ -63,7 +64,8 @@
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
-		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -76,10 +78,13 @@
 								<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://twitter.com/Fadhwildan2"><i class="icon-twitter2"></i></a></li>
-									<li><a href="https://www.instagram.com/fadhwildan/"><i class="icon-instagram2"></i></a>
+									<li><a href="https://www.instagram.com/fadhwildan/"><i
+												class="icon-instagram2"></i></a>
 									</li>
-									<li><a href="https://www.facebook.com/wildanfadh77"><i class="icon-facebook2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://www.facebook.com/wildanfadh77"><i
+												class="icon-facebook2"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"><i
+												class="icon-linkedin2"></i></a></li>
 								</ul>
 								</p>
 							</div>
@@ -103,8 +108,10 @@
 									Fadhlulloh</span></li>
 							<li><span class="first-block">Phone:</span><span class="second-block">+6285733150938</span>
 							</li>
-							<li><span class="first-block">Email:</span><span class="second-block">wildanfadhlulloh@gmail.com</span></li>
-							<li><span class="first-block">Website:</span><span class="second-block">wildanfadh.github.io</span></li>
+							<li><span class="first-block">Email:</span><span
+									class="second-block">wildanfadhlulloh@gmail.com</span></li>
+							<li><span class="first-block">Website:</span><span
+									class="second-block">wildanfadh.github.io</span></li>
 							<li><span class="first-block">Address:</span><span class="second-block">Jl. Lombok Raya RT
 									01 / RW 08, Dusun Balong Lombok, Desa Sumolawang, Kecamatan Puri, Kabupaten
 									Mojokerto, Jawa Timur 61363</span></li>
@@ -115,7 +122,7 @@
 						<!-- <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the
 							blind texts. Separated they live in bookmarksgrove there live the blind texts far from the
 							countries.</p> -->
-						<p>I'm Programmer with 2 years experience using JavaScript and PHP to develop, test and observe
+						<p>I'm Programmer with 4 years experience using JavaScript and PHP to develop, test and observe
 							Enterprise software applications. Has designed and developed more than 10 applications to
 							improve
 							efficiency and data management for the Company. Look for companies that implement remote
@@ -126,7 +133,8 @@
 							<li><a href="https://www.instagram.com/fadhwildan/"><i class="icon-instagram2"></i></a>
 							</li>
 							<li><a href="https://www.facebook.com/wildanfadh77"><i class="icon-facebook2"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"><i
+										class="icon-linkedin2"></i></a></li>
 						</ul>
 						</p>
 					</div>
@@ -185,7 +193,7 @@
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h3 class="timeline-title">Bachelors Degree</h3>
-										<span class="company">Hasyim Asy'ari University - 2020 - Current</span>
+										<span class="company">Hasyim Asy'ari University - 2020 - 2024</span>
 									</div>
 									<div class="timeline-body">
 										<p>Jombang, Jawa Timur, Indonesia.</p>
@@ -253,7 +261,7 @@
 								</span>
 								<div class="feature-copy">
 									<h3>Web Developent</h3>
-									<p>2.5+ years work experience</p>
+									<p>4.5+ years work experience</p>
 								</div>
 							</div>
 
@@ -391,7 +399,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://jdih.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/jdih.png);">
+						<a href="https://jdih.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/jdih.png);">
 							<div class="desc">
 								<h3>JDIH</h3>
 								<span>Sistem Informasi Manajemen Jaringan Dokumentasi dan Informasi Hukum Kota
@@ -400,7 +409,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simple.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/simple.png);">
+						<a href="http://simple.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/simple.png);">
 							<div class="desc">
 								<h3>Simple</h3>
 								<span>Sistem Informasi Manajemen Plan Center adalah Sistem Informasi yang membantu
@@ -411,7 +421,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simoneva.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/simoneva.png);">
+						<a href="http://simoneva.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/simoneva.png);">
 							<div class="desc">
 								<h3>Simoneva</h3>
 								<span>Sistem Informasi Monitoring dan Evaluasi Bappedalitbang Kota Mojokerto</span>
@@ -419,7 +430,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simsan-aladin.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/simsan-aladin.png);">
+						<a href="http://simsan-aladin.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/simsan-aladin.png);">
 							<div class="desc">
 								<h3>Simsan Aladin</h3>
 								<span>Sistem Informasi Manajemen Data Sanitasi Kota Mojokerto</span>
@@ -427,7 +439,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://sipelita.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/sipelita.png);">
+						<a href="https://sipelita.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/sipelita.png);">
 							<div class="desc">
 								<h3>Sipelita</h3>
 								<span>Sistem Informasi Penelitian, Pengembangan dan Inovasi Mojokerto Kota</span>
@@ -435,7 +448,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://magis.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/magis.png);">
+						<a href="http://magis.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/magis.png);">
 							<div class="desc">
 								<h3>Magis</h3>
 								<span>Sistem Informasi yang menyajikan data dan informasi geospasial yang mendukung
@@ -444,7 +458,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://sibima.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/sibima.png);">
+						<a href="http://sibima.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/sibima.png);">
 							<div class="desc">
 								<h3>Si Bima Majapahit</h3>
 								<span>Sistem Informasi Bina Marga Menjaga Jalan Mantap Dengan Aksi Pembangunan Dan
@@ -453,7 +468,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://reminder.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/reminder2.png);">
+						<a href="http://reminder.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/reminder2.png);">
 							<div class="desc">
 								<h3>Reminder</h3>
 								<span>Sistem Informasi Manajemen Data Anggaran Kota Madiun</span>
@@ -461,7 +477,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://veronja.primasoft.co.id/" class="work" style="background-image: url(images/portofolio/veronja2.png);">
+						<a href="http://veronja.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/veronja2.png);">
 							<div class="desc">
 								<h3>Veronja</h3>
 								<span>Sistem Informasi Verifikasi Online Pertangungjawaban Belanja Bappedalitbang Kota
@@ -470,7 +487,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://sipandu.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/sipandu.png);">
+						<a href="http://sipandu.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/sipandu.png);">
 							<div class="desc">
 								<h3>Sipandu</h3>
 								<span>Sistem Informasi Penanggulangan Kemiskinan Terpadu</span>
@@ -478,7 +496,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://pintarmoker.mojokertokota.go.id/" class="work" style="background-image: url(images/portofolio/pintarmoker.png);">
+						<a href="http://pintarmoker.mojokertokota.go.id/" class="work"
+							style="background-image: url(images/portofolio/pintarmoker.png);">
 							<div class="desc">
 								<h3>PintarMoker</h3>
 								<span>Sistem Informasi Tata Ruang yang mudah diakses oleh Masyarakat, yang berfungsi
@@ -487,7 +506,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://play.google.com/store/apps/details?id=com.dikupasi.dikupasi_app" class="work" style="background-image: url(images/portofolio/dikupasi.jpg);">
+						<a href="https://play.google.com/store/apps/details?id=com.dikupasi.dikupasi_app" class="work"
+							style="background-image: url(images/portofolio/dikupasi.jpg);">
 							<div class="desc">
 								<h3>Dikupasi Mobile</h3>
 								<span>Sistem Informasi Pendataan IKM/UMKM, Perdagangan dan Koperasi</span>
@@ -495,10 +515,48 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://drive.google.com/drive/folders/1VV8eRshOA8E6wdp3j0492kN9R8YHZP0m?usp=sharing" class="work" style="background-image: url(images/portofolio/sipandu_mobile.jpg);">
+						<a href="https://drive.google.com/drive/folders/1VV8eRshOA8E6wdp3j0492kN9R8YHZP0m?usp=sharing"
+							class="work" style="background-image: url(images/portofolio/sipandu_mobile.jpg);">
 							<div class="desc">
 								<h3>Sipandu Mobile</h3>
 								<span>Sistem Informasi Penanggulangan Kemiskinan Terpadu Mobile (Unpublished)</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://hsse.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/hsse.png);">
+							<div class="desc">
+								<h3>HSSE</h3>
+								<span>Sistem Informasi Manajemen Kecelakaan Kerja</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://hsse.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/asmas.png);">
+							<div class="desc">
+								<h3>ASMAS</h3>
+								<span>Sistem Informasi Manajemen Aspirasi Masyarakat</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://hsse.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/iphi.png);">
+							<div class="desc">
+								<h3>IPHI</h3>
+								<span>Sistem Informasi Organisasi Ikatan Persaudaraan Haji Indonesia Kota
+									Mojokerto</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://hsse.primasoft.co.id/" class="work"
+							style="background-image: url(images/portofolio/esakip.png);">
+							<div class="desc">
+								<h3>ESAKIP</h3>
+								<span>Sistem Akuntabilitas Kinerja Instansi Pemerintah</span>
 							</div>
 						</a>
 					</div>
@@ -575,7 +633,8 @@
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Hire Me!</h2>
 						<p>Open to Work</p>
-						<p><a href="https://wa.me/+6285733150938" class="btn btn-default btn-lg">Contact Me</a></p>
+						<!-- <p><a href="https://wa.me/+6285733150938" class="btn btn-default btn-lg">Contact Me</a></p> -->
+						<p><a href="mailto:wildanfadhlulloh@gmail.com" class="btn btn-default btn-lg">Contact Me</a></p>
 					</div>
 				</div>
 			</div>
@@ -631,7 +690,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved.</p>
+					<p>&copy; 2017 . All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
@@ -654,7 +713,8 @@
 	<!-- Easy PieChart -->
 	<script src="js/jquery.easypiechart.min.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
 
 	<!-- Main -->
