@@ -1,0 +1,350 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: Software Engineer | Web & Mobile Specialist
+        - heading "Building enterprise applications with pragmatic engineering and clear product impact." [level=1] [ref=e13]
+        - paragraph [ref=e14]: Wildan Fadhlulloh has 5+ years of experience delivering internal platforms, public service applications, and mobile products across JavaScript and PHP ecosystems.
+        - generic [ref=e15]:
+          - link "Contact Me" [ref=e16] [cursor=pointer]:
+            - /url: mailto:fadhdeveloper@gmail.com
+          - link "View Projects" [ref=e17] [cursor=pointer]:
+            - /url: "#fh5co-work"
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - strong [ref=e20]: 5+
+            - generic [ref=e21]: Years Experience
+          - listitem [ref=e22]:
+            - strong [ref=e23]: 10+
+            - generic [ref=e24]: Applications Shipped
+          - listitem [ref=e25]:
+            - strong [ref=e26]: JS + PHP
+            - generic [ref=e27]: Core Delivery Stack
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - link "Twitter" [ref=e30] [cursor=pointer]:
+              - /url: https://twitter.com/Fadhwildan2
+              - generic [ref=e31]: 
+          - listitem [ref=e32]:
+            - link "Instagram" [ref=e33] [cursor=pointer]:
+              - /url: https://www.instagram.com/fadhwildan/
+              - generic [ref=e34]: 
+          - listitem [ref=e35]:
+            - link "Facebook" [ref=e36] [cursor=pointer]:
+              - /url: https://www.facebook.com/wildanfadh77
+              - generic [ref=e37]: 
+          - listitem [ref=e38]:
+            - link "LinkedIn" [ref=e39] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/
+              - generic [ref=e40]: 
+      - complementary [ref=e41]:
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: Profile
+          - heading "Wildan Fadhlulloh" [level=2] [ref=e45]
+          - paragraph [ref=e46]: Focused on scalable dashboards, operational systems, and product delivery for government and enterprise use cases.
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - generic [ref=e49]: Email
+            - strong [ref=e50]: fadhdeveloper@gmail.com
+          - listitem [ref=e51]:
+            - generic [ref=e52]: Website
+            - strong [ref=e53]: wildanfadh.github.io
+          - listitem [ref=e54]:
+            - generic [ref=e55]: Phone
+            - strong [ref=e56]: +62 851-1712-6189
+  - generic [ref=e58]:
+    - generic [ref=e60]:
+      - generic [ref=e61]: Profile Overview
+      - heading "About Me" [level=2] [ref=e62]
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - heading "Engineering Focus" [level=3] [ref=e66]
+        - paragraph [ref=e67]: I build robust information systems with a balance of maintainable architecture, practical UI, and delivery speed. My work spans full-stack web platforms, mobile apps, and operational dashboards used by public institutions and enterprise teams.
+        - generic [ref=e68]:
+          - generic [ref=e69]: Enterprise Apps
+          - generic [ref=e70]: Public Service Platforms
+          - generic [ref=e71]: Mobile Delivery
+          - generic [ref=e72]: System Integration
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: Full Name
+            - strong [ref=e78]: Wildan Fadhlulloh
+          - generic [ref=e79]:
+            - generic [ref=e80]: Role
+            - strong [ref=e81]: Software Engineer
+          - generic [ref=e82]:
+            - generic [ref=e83]: Email
+            - strong [ref=e84]: fadhdeveloper@gmail.com
+          - generic [ref=e85]:
+            - generic [ref=e86]: Website
+            - strong [ref=e87]: wildanfadh.github.io
+          - generic [ref=e88]:
+            - generic [ref=e89]: Phone
+            - strong [ref=e90]: +62 851-1712-6189
+          - generic [ref=e91]:
+            - generic [ref=e92]: Specialization
+            - strong [ref=e93]: JavaScript, PHP, React, Laravel, React Native
+        - list [ref=e94]:
+          - listitem [ref=e95]:
+            - link "Twitter" [ref=e96] [cursor=pointer]:
+              - /url: https://twitter.com/Fadhwildan2
+              - generic [ref=e97]: 
+          - listitem [ref=e98]:
+            - link "Instagram" [ref=e99] [cursor=pointer]:
+              - /url: https://www.instagram.com/fadhwildan/
+              - generic [ref=e100]: 
+          - listitem [ref=e101]:
+            - link "Facebook" [ref=e102] [cursor=pointer]:
+              - /url: https://www.facebook.com/wildanfadh77
+              - generic [ref=e103]: 
+          - listitem [ref=e104]:
+            - link "LinkedIn" [ref=e105] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/
+              - generic [ref=e106]: 
+  - generic [ref=e108]:
+    - heading "My Resume" [level=2] [ref=e111]
+    - list [ref=e114]:
+      - listitem [ref=e115]:
+        - heading "Work Experience" [level=3] [ref=e117]
+      - listitem [ref=e118]:
+        - generic [ref=e120]: 
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - heading "FullStack Developer" [level=3] [ref=e123]
+            - generic [ref=e124]: CV. PRIMA GROUP - 2020 - Current
+          - paragraph [ref=e126]: Mojokerto, Jawa Timur, Indonesia.
+      - listitem [ref=e127]:
+        - generic [ref=e129]: 
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - heading "IT Support Technician" [level=3] [ref=e132]
+            - generic [ref=e133]: BLKK Wahid Hasyim - 2019 - 2020
+          - paragraph [ref=e135]: Depok, Jawa Barat, Indonesia.
+      - listitem [ref=e136]:
+        - heading "Education" [level=3] [ref=e138]
+      - listitem [ref=e139]:
+        - generic [ref=e141]: 
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - heading "Bachelors Degree" [level=3] [ref=e144]
+            - generic [ref=e145]: Hasyim Asy'ari University - 2020 - 2024
+          - paragraph [ref=e147]: Jombang, Jawa Timur, Indonesia.
+      - listitem [ref=e148]:
+        - generic [ref=e150]: 
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - heading "Diploma Course" [level=3] [ref=e153]
+            - generic [ref=e154]: Magistra Utama Surabaya - 2018 - 2019
+          - paragraph [ref=e156]: Surabaya, Jawa Timur, Indonesia.
+      - listitem [ref=e157]:
+        - generic [ref=e159]: 
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - heading "Senior High School" [level=3] [ref=e162]
+            - generic [ref=e163]: SMK Roudlotun Nasyiin - 2015 - 2018
+          - paragraph [ref=e165]: Mojokerto, Jawa Timur, Indonesia.
+  - generic [ref=e167]:
+    - heading "Skills" [level=2] [ref=e170]
+    - generic [ref=e171]:
+      - generic [ref=e174]:
+        - strong [ref=e175]: HTML5
+        - text: 90%
+      - generic [ref=e178]:
+        - strong [ref=e179]: CSS3
+        - text: 90%
+      - generic [ref=e182]:
+        - strong [ref=e183]: jQuery
+        - text: 80%
+      - generic [ref=e186]:
+        - strong [ref=e187]: PHP
+        - text: 80%
+      - generic [ref=e190]:
+        - strong [ref=e191]: JavaScript
+        - text: 80%
+      - generic [ref=e194]:
+        - strong [ref=e195]: MySQL
+        - text: 75%
+      - generic [ref=e198]:
+        - strong [ref=e199]: Laravel
+        - text: 80%
+      - generic [ref=e202]:
+        - strong [ref=e203]: Codeigniter 3
+        - text: 80%
+      - generic [ref=e206]:
+        - strong [ref=e207]: ReactJs
+        - text: 70%
+      - generic [ref=e210]:
+        - strong [ref=e211]: React Native
+        - text: 75%
+      - generic [ref=e214]:
+        - strong [ref=e215]: NestJs
+        - text: 65%
+      - generic [ref=e218]:
+        - strong [ref=e219]: PostgreSQL
+        - text: 45%
+  - generic [ref=e221]:
+    - generic [ref=e223]:
+      - generic [ref=e224]: Selected Projects
+      - heading "Work and Contribution" [level=2] [ref=e225]
+      - paragraph [ref=e226]: Highlighted systems delivered for government, internal operations, and mobile experiences, now with explicit technology stack details for each project.
+    - generic [ref=e227]:
+      - link "JDIH Legal Documentation and Information Network Management System for Mojokerto City Laravel Bootstrap MySQL" [ref=e229] [cursor=pointer]:
+        - /url: https://jdih.mojokertokota.go.id/
+        - generic [ref=e230]:
+          - heading "JDIH" [level=3] [ref=e231]
+          - generic [ref=e232]: Legal Documentation and Information Network Management System for Mojokerto City
+          - generic [ref=e233]:
+            - generic [ref=e234]: Laravel
+            - generic [ref=e235]: Bootstrap
+            - generic [ref=e236]: MySQL
+      - link "Simple Plan Center Management Information System that provides regional development data and information as planning documents. CodeIgniter jQuery MySQL" [ref=e238] [cursor=pointer]:
+        - /url: http://simple.primasoft.co.id/
+        - generic [ref=e239]:
+          - heading "Simple" [level=3] [ref=e240]
+          - generic [ref=e241]: Plan Center Management Information System that provides regional development data and information as planning documents.
+          - generic [ref=e242]:
+            - generic [ref=e243]: CodeIgniter
+            - generic [ref=e244]: jQuery
+            - generic [ref=e245]: MySQL
+      - link "Simoneva Monitoring and Evaluation Information System for Bappedalitbang Mojokerto City Laravel Chart.js PostgreSQL" [ref=e247] [cursor=pointer]:
+        - /url: http://simoneva.mojokertokota.go.id/
+        - generic [ref=e248]:
+          - heading "Simoneva" [level=3] [ref=e249]
+          - generic [ref=e250]: Monitoring and Evaluation Information System for Bappedalitbang Mojokerto City
+          - generic [ref=e251]:
+            - generic [ref=e252]: Laravel
+            - generic [ref=e253]: Chart.js
+            - generic [ref=e254]: PostgreSQL
+      - link "Simsan Aladin Sanitation Data Management Information System for Mojokerto City PHP Bootstrap MySQL" [ref=e256] [cursor=pointer]:
+        - /url: http://simsan-aladin.primasoft.co.id/
+        - generic [ref=e257]:
+          - heading "Simsan Aladin" [level=3] [ref=e258]
+          - generic [ref=e259]: Sanitation Data Management Information System for Mojokerto City
+          - generic [ref=e260]:
+            - generic [ref=e261]: PHP
+            - generic [ref=e262]: Bootstrap
+            - generic [ref=e263]: MySQL
+      - link "Sipelita Research, Development, and Innovation Information System for Mojokerto City Laravel Vue MySQL" [ref=e265] [cursor=pointer]:
+        - /url: https://sipelita.mojokertokota.go.id/
+        - generic [ref=e266]:
+          - heading "Sipelita" [level=3] [ref=e267]
+          - generic [ref=e268]: Research, Development, and Innovation Information System for Mojokerto City
+          - generic [ref=e269]:
+            - generic [ref=e270]: Laravel
+            - generic [ref=e271]: Vue
+            - generic [ref=e272]: MySQL
+      - link "Magis Information system that presents geospatial data and information to support regional development planning. Laravel Leaflet PostGIS" [ref=e274] [cursor=pointer]:
+        - /url: http://magis.mojokertokota.go.id/
+        - generic [ref=e275]:
+          - heading "Magis" [level=3] [ref=e276]
+          - generic [ref=e277]: Information system that presents geospatial data and information to support regional development planning.
+          - generic [ref=e278]:
+            - generic [ref=e279]: Laravel
+            - generic [ref=e280]: Leaflet
+            - generic [ref=e281]: PostGIS
+      - link "Si Bima Majapahit Road Management Information System for maintaining road quality through planned infrastructure development and maintenance by the Public Works Department of Mojokerto City CodeIgniter GIS MySQL" [ref=e283] [cursor=pointer]:
+        - /url: http://sibima.mojokertokota.go.id/
+        - generic [ref=e284]:
+          - heading "Si Bima Majapahit" [level=3] [ref=e285]
+          - generic [ref=e286]: Road Management Information System for maintaining road quality through planned infrastructure development and maintenance by the Public Works Department of Mojokerto City
+          - generic [ref=e287]:
+            - generic [ref=e288]: CodeIgniter
+            - generic [ref=e289]: GIS
+            - generic [ref=e290]: MySQL
+      - link "Reminder Budget Data Management Information System for Madiun City Laravel AdminLTE MySQL" [ref=e292] [cursor=pointer]:
+        - /url: http://reminder.primasoft.co.id/
+        - generic [ref=e293]:
+          - heading "Reminder" [level=3] [ref=e294]
+          - generic [ref=e295]: Budget Data Management Information System for Madiun City
+          - generic [ref=e296]:
+            - generic [ref=e297]: Laravel
+            - generic [ref=e298]: AdminLTE
+            - generic [ref=e299]: MySQL
+      - link "Veronja Budget Data Management Information System for Mojokerto City Laravel jQuery MySQL" [ref=e301] [cursor=pointer]:
+        - /url: http://veronja.primasoft.co.id/
+        - generic [ref=e302]:
+          - heading "Veronja" [level=3] [ref=e303]
+          - generic [ref=e304]: Budget Data Management Information System for Mojokerto City
+          - generic [ref=e305]:
+            - generic [ref=e306]: Laravel
+            - generic [ref=e307]: jQuery
+            - generic [ref=e308]: MySQL
+      - link "Sipandu Integrated Poverty Alleviation Information System Laravel REST API MySQL" [ref=e310] [cursor=pointer]:
+        - /url: http://sipandu.mojokertokota.go.id/
+        - generic [ref=e311]:
+          - heading "Sipandu" [level=3] [ref=e312]
+          - generic [ref=e313]: Integrated Poverty Alleviation Information System
+          - generic [ref=e314]:
+            - generic [ref=e315]: Laravel
+            - generic [ref=e316]: REST API
+            - generic [ref=e317]: MySQL
+      - link "PintarMoker Publicly accessible Spatial Planning Information System for urban planning, land use, and spatial control PHP Leaflet MySQL" [ref=e319] [cursor=pointer]:
+        - /url: http://pintarmoker.mojokertokota.go.id/
+        - generic [ref=e320]:
+          - heading "PintarMoker" [level=3] [ref=e321]
+          - generic [ref=e322]: Publicly accessible Spatial Planning Information System for urban planning, land use, and spatial control
+          - generic [ref=e323]:
+            - generic [ref=e324]: PHP
+            - generic [ref=e325]: Leaflet
+            - generic [ref=e326]: MySQL
+      - link "Dikupasi Mobile Data Collection Information System for Small & Medium Enterprises, Trade, and Cooperatives React Native REST API Android" [ref=e328] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.dikupasi.dikupasi_app
+        - generic [ref=e329]:
+          - heading "Dikupasi Mobile" [level=3] [ref=e330]
+          - generic [ref=e331]: Data Collection Information System for Small & Medium Enterprises, Trade, and Cooperatives
+          - generic [ref=e332]:
+            - generic [ref=e333]: React Native
+            - generic [ref=e334]: REST API
+            - generic [ref=e335]: Android
+      - link "Sipandu Mobile Integrated Poverty Alleviation Information System — Mobile App (Unpublished) React Native REST API Firebase" [ref=e337] [cursor=pointer]:
+        - /url: https://drive.google.com/drive/folders/1VV8eRshOA8E6wdp3j0492kN9R8YHZP0m?usp=sharing
+        - generic [ref=e338]:
+          - heading "Sipandu Mobile" [level=3] [ref=e339]
+          - generic [ref=e340]: Integrated Poverty Alleviation Information System — Mobile App (Unpublished)
+          - generic [ref=e341]:
+            - generic [ref=e342]: React Native
+            - generic [ref=e343]: REST API
+            - generic [ref=e344]: Firebase
+      - link "HSSE Workplace Accident Management Information System Laravel Vue PostgreSQL" [ref=e346] [cursor=pointer]:
+        - /url: https://hsse.primasoft.co.id/
+        - generic [ref=e347]:
+          - heading "HSSE" [level=3] [ref=e348]
+          - generic [ref=e349]: Workplace Accident Management Information System
+          - generic [ref=e350]:
+            - generic [ref=e351]: Laravel
+            - generic [ref=e352]: Vue
+            - generic [ref=e353]: PostgreSQL
+      - link "ASMAS Community Aspirations Management Information System Laravel Bootstrap MySQL" [ref=e355] [cursor=pointer]:
+        - /url: https://asmas.primasoft.co.id/
+        - generic [ref=e356]:
+          - heading "ASMAS" [level=3] [ref=e357]
+          - generic [ref=e358]: Community Aspirations Management Information System
+          - generic [ref=e359]:
+            - generic [ref=e360]: Laravel
+            - generic [ref=e361]: Bootstrap
+            - generic [ref=e362]: MySQL
+      - link "IPHI Organizational Information System for the Indonesian Hajj Brotherhood Association, Mojokerto City Laravel Admin Panel MySQL" [ref=e364] [cursor=pointer]:
+        - /url: https://iphi.primasoft.co.id/
+        - generic [ref=e365]:
+          - heading "IPHI" [level=3] [ref=e366]
+          - generic [ref=e367]: Organizational Information System for the Indonesian Hajj Brotherhood Association, Mojokerto City
+          - generic [ref=e368]:
+            - generic [ref=e369]: Laravel
+            - generic [ref=e370]: Admin Panel
+            - generic [ref=e371]: MySQL
+      - link "ESAKIP Government Agency Performance Accountability System Laravel Dashboard UI PostgreSQL" [ref=e373] [cursor=pointer]:
+        - /url: https://esakip.mojokertokota.go.id/
+        - generic [ref=e374]:
+          - heading "ESAKIP" [level=3] [ref=e375]
+          - generic [ref=e376]: Government Agency Performance Accountability System
+          - generic [ref=e377]:
+            - generic [ref=e378]: Laravel
+            - generic [ref=e379]: Dashboard UI
+            - generic [ref=e380]: PostgreSQL
+  - generic [ref=e384]:
+    - heading "Hire Me!" [level=2] [ref=e385]
+    - paragraph [ref=e386]: Open to Work
+    - paragraph [ref=e387]:
+      - link "Contact Me" [ref=e388] [cursor=pointer]:
+        - /url: mailto:fadhdeveloper@gmail.com

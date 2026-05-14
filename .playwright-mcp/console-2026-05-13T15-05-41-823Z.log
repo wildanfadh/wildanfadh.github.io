@@ -1,0 +1,12 @@
+[     380ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/images/loader.gif:0
+[     511ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false:331
+[     538ms] [WARNING] google.maps.event.addDomListener() is deprecated, use the standard
+addEventListener() method instead:
+https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener
+The feature will continue to work and there is no plan to decommission
+it. @ https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false:212
+[     553ms] Uncaught InvalidValueError: Map: Expected mapDiv of type HTMLElement but was passed null.
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false:202:396)
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false:277:273)
+    at init (http://localhost:8080/js/google_map.js:30:14)
+[    5548ms] [WARNING] Google Maps JavaScript API warning: SensorNotRequired https://developers.google.com/maps/documentation/javascript/error-messages#sensor-not-required @ https://maps.googleapis.com/maps-api-v3/api/js/64/12d/util.js:29
