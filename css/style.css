@@ -1624,6 +1624,12 @@ a:focus {
   font-weight: 700;
 }
 
+.hero-profile-text h2 {
+  color: var(--ink) !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+
 .hero-profile-card h2 {
   margin-bottom: 12px;
   font-size: 42px;
