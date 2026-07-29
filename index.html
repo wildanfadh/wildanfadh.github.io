@@ -1,1066 +1,581 @@
-<!DOCTYPE HTML>
-<html lang="id">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wildanfadh Profile</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="Wildan Fadhlulloh - Software Engineer with 5+ years experience building enterprise applications, public service platforms, and mobile products using JavaScript and PHP ecosystems." />
-	<meta name="keywords"
-		content="software engineer, web developer, fullstack developer, laravel, react native, javascript, php, portfolio, wildan fadhlulloh" />
-	<meta name="author" content="Wildan Fadhlulloh" />
-	<link rel="icon" type="image/x-icon" href="images/logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wildan Fadhlulloh — Full Stack Engineer</title>
+  <meta name="description" content="Wildan Fadhlulloh - Full Stack Engineer with 5+ years experience building enterprise platforms, mobile apps, and AI agents.">
+  <meta name="author" content="Wildan Fadhlulloh">
+  <link rel="icon" href="images/logo.png">
 
-	<!-- 
-	//////////////////////////////////////////////////////
+  <meta property="og:title" content="Wildan Fadhlulloh — Full Stack Engineer">
+  <meta property="og:description" content="Building robust information systems - enterprise platforms, mobile apps, desktop tools, and AI agents.">
+  <meta property="og:image" content="https://wildanfadh.github.io/images/wildan.jpg">
+  <meta property="og:url" content="https://wildanfadh.github.io/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-	//////////////////////////////////////////////////////
-	 -->
+<style>
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Outfit',system-ui,sans-serif;background:#0a0a12;color:#e4e4ec;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 
-	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="Wildan Fadhlulloh - Software Engineer" />
-	<meta property="og:image" content="https://wildanfadh.github.io/images/wildan.jpg" />
-	<meta property="og:url" content="https://wildanfadh.github.io/" />
-	<meta property="og:site_name" content="Wildan Fadhlulloh" />
-	<meta property="og:description"
-		content="Software Engineer with 5+ years experience building enterprise applications, public service platforms, and mobile products." />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Wildan Fadhlulloh - Software Engineer" />
-	<meta name="twitter:image" content="https://wildanfadh.github.io/images/wildan.jpg" />
-	<meta name="twitter:url" content="https://wildanfadh.github.io/" />
+/* ===== CUSTOM PROPS ===== */
+:root{
+  --bg:#0a0a12;
+  --bg2:#11111b;
+  --surface:rgba(255,255,255,.04);
+  --surface-hover:rgba(255,255,255,.08);
+  --border:rgba(255,255,255,.08);
+  --text:#e4e4ec;
+  --muted:#8888a0;
+  --dim:#5c5c78;
+  --accent:#7c6ff7;
+  --accent2:#ff6b9d;
+  --accent3:#4fc9e0;
+  --radius:14px;
+}
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap"
-		rel="stylesheet">
+/* ===== TYPOGRAPHY ===== */
+h1,h2,h3,h4{font-family:'Syne',system-ui,sans-serif;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+h1{font-size:clamp(2.2rem,6vw,4.2rem)}
+h2{font-size:clamp(1.6rem,4vw,2.8rem)}
+h3{font-size:clamp(1.1rem,2vw,1.4rem)}
+.font-mono{font-family:'JetBrains Mono',monospace;font-size:.75rem}
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+/* ===== LAYOUT ===== */
+.container{max-width:1120px;margin:0 auto;padding:0 1.5rem}
+section{padding:5rem 0;position:relative}
+@media(min-width:768px){section{padding:7rem 0}}
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+/* ===== NOISE OVERLAY ===== */
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
+  opacity:.015;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")
+}
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+/* ===== NAVBAR ===== */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:50;
+  padding:.75rem 1.5rem;
+  background:rgba(10,10,18,.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+}
+nav .inner{
+  max-width:1120px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;text-decoration:none;color:var(--text)}
+.logo span{color:var(--accent)}
+.nav-links{display:flex;gap:.25rem;list-style:none}
+.nav-links a{
+  padding:.4rem .9rem;border-radius:8px;text-decoration:none;
+  font-size:.825rem;font-weight:500;color:var(--muted);
+  transition:.2s;
+}
+.nav-links a:hover{color:var(--text);background:var(--surface)}
 
+/* mobile menu btn */
+.menu-btn{display:none;background:none;border:none;color:var(--text);padding:8px;cursor:pointer}
+@media(max-width:768px){
+  .nav-links{display:none;position:fixed;top:56px;left:0;right:0;background:rgba(10,10,18,.95);backdrop-filter:blur(20px);flex-direction:column;padding:1rem;border-bottom:1px solid var(--border)}
+  .nav-links.open{display:flex}
+  .menu-btn{display:block}
+}
+
+/* ===== HERO ===== */
+.hero{
+  min-height:100vh;display:flex;align-items:center;
+  position:relative;overflow:hidden;
+}
+.hero-bg{
+  position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(60% 60% at 20% 30%,rgba(124,111,247,.2),transparent),
+    radial-gradient(40% 40% at 80% 70%,rgba(255,107,157,.12),transparent),
+    radial-gradient(50% 50% at 50% 10%,rgba(79,201,224,.08),transparent);
+}
+.hero .container{position:relative;z-index:1}
+
+.hero-grid{
+  display:grid;grid-template-columns:1fr 280px;gap:3rem;align-items:center;
+}
+@media(max-width:868px){.hero-grid{grid-template-columns:1fr}}
+
+.kicker{
+  font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--accent);
+  display:flex;align-items:center;gap:.5rem;margin-bottom:1.5rem;
+}
+.kicker::before{content:'';width:1.5rem;height:1px;background:var(--accent)}
+
+.hero h1{margin-bottom:1.2rem}
+.hero .gradient-text{
+  background:linear-gradient(135deg,var(--accent),var(--accent2),var(--accent3));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.hero p{font-size:1.05rem;color:var(--muted);max-width:520px;margin-bottom:2rem}
+
+.hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:2.5rem}
+.btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.65rem 1.5rem;border-radius:10px;font-weight:500;font-size:.9rem;
+  text-decoration:none;transition:.25s;border:1px solid transparent;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--accent),#6d5ae6);color:#fff;
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(124,111,247,.35)}
+.btn-ghost{border-color:var(--border);color:var(--text)}
+.btn-ghost:hover{background:var(--surface);border-color:var(--accent)}
+
+.hero-stats{
+  display:flex;gap:2rem;flex-wrap:wrap;
+}
+.hero-stats dt{
+  font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:700;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.hero-stats dd{font-size:.8rem;color:var(--dim)}
+
+/* Profile card */
+.profile-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.5rem;backdrop-filter:blur(8px);
+}
+@media(max-width:868px){.profile-card{display:none}}
+.profile-card img{
+  width:72px;height:72px;border-radius:50%;object-fit:cover;
+  border:2px solid var(--accent);margin-bottom:1rem;
+}
+.profile-card h3{font-size:1rem;margin-bottom:.25rem}
+.profile-card .role{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.profile-card .stat-row{display:flex;gap:1rem;padding-top:1rem;border-top:1px solid var(--border)}
+.profile-card .stat-row div{flex:1}
+.profile-card .stat-row strong{display:block;font-family:'Syne',sans-serif;font-size:1rem}
+.profile-card .stat-row span{font-size:.7rem;color:var(--dim)}
+
+/* Social */
+.social{display:flex;gap:.5rem;margin-top:1rem}
+.social a{
+  width:36px;height:36px;border-radius:8px;border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--muted);text-decoration:none;font-size:.8rem;transition:.2s;
+}
+.social a:hover{color:var(--accent);border-color:var(--accent);background:var(--surface)}
+
+/* ===== SECTION HEADERS ===== */
+.section-label{
+  font-family:'JetBrains Mono',monospace;font-size:.7rem;text-transform:uppercase;
+  letter-spacing:.12em;color:var(--accent);margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem;
+}
+.section-label::after{content:'';flex:1;height:1px;background:var(--border);max-width:80px}
+.section-title{margin-bottom:1rem}
+.section-sub{color:var(--muted);max-width:560px;margin-bottom:3rem}
+
+/* ===== ABOUT ===== */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+@media(max-width:640px){.about-grid{grid-template-columns:1fr}}
+.card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.5rem;transition:.25s;
+}
+.card:hover{border-color:rgba(124,111,.3)}
+.card h3{font-size:.95rem;margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}
+.card h3 span{font-size:.7rem;color:var(--accent);font-family:'JetBrains Mono',monospace}
+.card p{font-size:.85rem;color:var(--muted);line-height:1.7}
+
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+.tag{
+  padding:.2rem .65rem;border-radius:6px;border:1px solid var(--border);
+  font-size:.72rem;font-weight:500;color:var(--muted);background:rgba(255,255,255,.03);
+}
+
+/* ===== TIMELINE (Resume) ===== */
+.timeline{position:relative;padding-left:2rem}
+.timeline::before{
+  content:'';position:absolute;left:7px;top:0;bottom:0;width:1px;background:var(--border)
+}
+.tl-item{position:relative;padding-bottom:2rem}
+.tl-item:last-child{padding-bottom:0}
+.tl-dot{
+  position:absolute;left:-2rem;top:4px;width:14px;height:14px;border-radius:50%;
+  background:var(--surface);border:2px solid var(--accent);
+}
+.tl-item.work .tl-dot{border-color:var(--accent)}
+.tl-item.edu .tl-dot{border-color:var(--accent3)}
+.tl-meta{font-size:.72rem;color:var(--dim);margin-bottom:.25rem}
+.tl-title{font-size:.95rem;margin-bottom:.15rem}
+.tl-org{font-size:.82rem;color:var(--accent);margin-bottom:.25rem}
+.tl-desc{font-size:.82rem;color:var(--muted);line-height:1.6}
+
+/* ===== SKILLS ===== */
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.75rem}
+.skill-item{
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:1rem;text-align:center;transition:.25s;
+}
+.skill-item:hover{border-color:var(--accent);transform:translateY(-2px)}
+.skill-item .skill-name{font-size:.82rem;font-weight:500;margin-bottom:.3rem}
+.skill-item .skill-level{font-family:'JetBrains Mono',monospace;font-size:.65rem;color:var(--dim)}
+.skill-bar{height:3px;background:var(--border);border-radius:2px;margin-top:.5rem;overflow:hidden}
+.skill-bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+
+/* ===== PROJECTS ===== */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.project-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.5rem;transition:.25s;
+}
+.project-card:hover{
+  border-color:var(--accent);transform:translateY(-3px);
+  box-shadow:0 12px 40px rgba(0,0,0,.3);
+}
+.project-card .proj-num{
+  font-family:'JetBrains Mono',monospace;font-size:.65rem;color:var(--accent);margin-bottom:.5rem;
+}
+.project-card h3{font-size:1.05rem;margin-bottom:.5rem}
+.project-card p{font-size:.82rem;color:var(--muted);line-height:1.6;margin-bottom:.75rem}
+.proj-tech{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.75rem}
+.proj-tech span{
+  padding:.15rem .5rem;border-radius:4px;background:rgba(124,111,247,.1);
+  font-size:.65rem;font-family:'JetBrains Mono',monospace;color:var(--accent);
+}
+.proj-link{
+  font-size:.75rem;color:var(--muted);text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;transition:.2s;
+}
+.proj-link:hover{color:var(--accent)}
+
+/* ===== CONTACT ===== */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-bottom:2rem}
+.contact-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.25rem;text-decoration:none;transition:.25s;display:block;
+}
+.contact-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.contact-card .c-label{font-size:.65rem;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.35rem}
+.contact-card .c-value{font-size:.85rem;color:var(--text)}
+
+.footer-meta{
+  text-align:center;padding-top:2rem;border-top:1px solid var(--border);
+  font-size:.72rem;color:var(--dim);
+}
+.footer-meta a{color:var(--muted);text-decoration:none}
+.footer-meta a:hover{color:var(--accent)}
+
+/* ===== SCROLL TOP ===== */
+.scroll-top{
+  position:fixed;bottom:1.5rem;right:1.5rem;z-index:40;
+  width:40px;height:40px;border-radius:10px;border:1px solid var(--border);
+  background:var(--surface);backdrop-filter:blur(8px);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--muted);text-decoration:none;transition:.2s;cursor:pointer;
+}
+.scroll-top:hover{color:var(--accent);border-color:var(--accent)}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.animate{opacity:0}
+.animate.in{animation:fadeUp .6s cubic-bezier(.22,1,.36,1) forwards}
+.animate-fade{opacity:0}
+.animate-fade.in{animation:fadeIn .5s ease forwards}
+
+/* ===== REDUCED MOTION ===== */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .animate,.animate-fade{opacity:1!important;transform:none!important}
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+::selection{background:rgba(124,111,247,.3);color:#fff}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+</style>
 </head>
-
 <body>
 
-	<div class="fh5co-loader"></div>
+<!-- NAVBAR -->
+<nav>
+  <div class="inner">
+    <a href="#" class="logo">wf<span>.</span></a>
+    <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-	<div id="page">
-		<header id="fh5co-header" class="fh5co-cover modern-hero" role="banner" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="display-t">
-							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<div class="hero-shell">
-									<div class="hero-content">
-										<span class="hero-kicker">Software Engineer | Web & Mobile Specialist</span>
-										<h1>Building enterprise applications with pragmatic engineering and clear
-											product impact.</h1>
-										<p class="hero-summary">Software Engineer has 5+ years of experience delivering
-											internal platforms, public service applications, and mobile products across
-											JavaScript and PHP ecosystems.</p>
-										<div class="hero-actions">
-											<a href="mailto:fadhdeveloper@gmail.com"
-												class="btn btn-primary btn-lg">Contact Me</a>
-											<a href="#fh5co-work" class="btn btn-outline btn-lg hero-ghost-btn">View
-												Projects</a>
-										</div>
-										<ul class="hero-metrics">
-											<li>
-												<strong>5+</strong>
-												<span>Years Experience</span>
-											</li>
-											<li>
-												<strong>10+</strong>
-												<span>Applications Shipped</span>
-											</li>
-											<li>
-												<strong>JS + PHP</strong>
-												<span>Core Delivery Stack</span>
-											</li>
-										</ul>
-										<ul class="fh5co-social-icons hero-social-icons">
-											<li><a href="https://twitter.com/Fadhwildan2" aria-label="Twitter"><i
-														class="icon-twitter2"></i></a></li>
-											<li><a href="https://www.instagram.com/fadhwildan/"
-													aria-label="Instagram"><i class="icon-instagram2"></i></a></li>
-											<li><a href="https://www.facebook.com/wildanfadh77" aria-label="Facebook"><i
-														class="icon-facebook2"></i></a></li>
-											<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"
-													aria-label="LinkedIn"><i class="icon-linkedin2"></i></a></li>
-										</ul>
-									</div>
-									<aside class="hero-profile-card">
-										<div class="profile-thumb" style="background-image: url(images/wildan.jpg);">
-										</div>
-										<div class="hero-profile-text">
-											<p class="hero-profile-label">Profile</p>
-											<h2>Wildan Fadhlulloh</h2>
-											<p>Focused on scalable dashboards, operational systems, and product delivery
-												for government and enterprise use cases.</p>
-										</div>
-										<ul class="hero-profile-meta">
-											<li>
-												<span>Email</span>
-												<strong>fadhdeveloper@gmail.com</strong>
-											</li>
-											<li>
-												<span>Website</span>
-												<strong>wildanfadh.github.io</strong>
-											</li>
-											<li>
-												<span>Phone</span>
-												<strong>+62 851-1712-6189</strong>
-											</li>
-										</ul>
-									</aside>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker">Full Stack Engineer</div>
+        <h1>Building systems that <span class="gradient-text">ship.</span></h1>
+        <p>Enterprise platforms, mobile apps, desktop tools, and AI agents — five years delivering for government and enterprise.</p>
+        <div class="hero-actions">
+          <a href="mailto:fadhdeveloper@gmail.com" class="btn btn-primary">Get in touch →</a>
+          <a href="#projects" class="btn btn-ghost">View work</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>5+</dt><dd>Years</dd></div>
+          <div><dt>18+</dt><dd>Apps shipped</dd></div>
+          <div><dt>6</dt><dd>Languages</dd></div>
+          <div><dt>29</dt><dd>GitHub repos</dd></div>
+        </dl>
+      </div>
+      <div class="profile-card">
+        <img src="images/wildan.jpg" alt="Wildan Fadhlulloh" loading="lazy">
+        <h3>Wildan Fadhlulloh</h3>
+        <p class="role">Full Stack Engineer · Mojokerto</p>
+        <p style="font-size:.78rem;color:var(--muted);line-height:1.6;margin-bottom:1rem">
+          React, TypeScript, React Native, Rust, Go. Building robust information systems at CV. Prima Group.
+        </p>
+        <div class="stat-row">
+          <div><strong>$ cd</strong><span>/enterprise</span></div>
+          <div><strong>>_</strong><span>stack:full</span></div>
+        </div>
+        <div class="social">
+          <a href="https://github.com/wildanfadh" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com/in/wildan-fadhlulloh" target="_blank" rel="noopener" aria-label="LinkedIn">LI</a>
+          <a href="https://twitter.com/wildanfadh" target="_blank" rel="noopener" aria-label="Twitter">X</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<div id="fh5co-about" class="animate-box">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Profile Overview</span>
-						<h2>About Me</h2>
-					</div>
-				</div>
-				<div class="row profile-grid">
-					<div class="col-md-5">
-						<div class="profile-panel profile-intro-card">
-							<h3>Engineering Focus</h3>
-							<p>I build robust information systems with a balance of maintainable architecture, practical
-								UI, and delivery speed. My work spans full-stack web platforms, mobile apps, and
-								operational dashboards used by public institutions and enterprise teams.</p>
-							<div class="focus-tags">
-								<span>Enterprise Apps</span>
-								<span>Public Service Platforms</span>
-								<span>Mobile Delivery</span>
-								<span>System Integration</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-7">
-						<div class="profile-panel profile-detail-card">
-							<div class="profile-detail-list">
-								<div class="profile-detail-item">
-									<span>Full Name</span>
-									<strong>Wildan Fadhlulloh</strong>
-								</div>
-								<div class="profile-detail-item">
-									<span>Role</span>
-									<strong>Software Engineer</strong>
-								</div>
-								<div class="profile-detail-item">
-									<span>Email</span>
-									<strong>fadhdeveloper@gmail.com</strong>
-								</div>
-								<div class="profile-detail-item">
-									<span>Website</span>
-									<strong>wildanfadh.github.io</strong>
-								</div>
-								<div class="profile-detail-item">
-									<span>Phone</span>
-									<strong>+62 851-1712-6189</strong>
-								</div>
-								<div class="profile-detail-item">
-									<span>Specialization</span>
-									<strong>JavaScript, PHP, React, Laravel, React Native</strong>
-								</div>
-							</div>
-							<ul class="fh5co-social-icons about-social-icons">
-								<li><a href="https://twitter.com/Fadhwildan2" aria-label="Twitter"><i
-											class="icon-twitter2"></i></a></li>
-								<li><a href="https://www.instagram.com/fadhwildan/" aria-label="Instagram"><i
-											class="icon-instagram2"></i></a>
-								</li>
-								<li><a href="https://www.facebook.com/wildanfadh77" aria-label="Facebook"><i
-											class="icon-facebook2"></i></a>
-								</li>
-								<li><a href="https://www.linkedin.com/in/wildan-fadhlulloh-4677081a2/"
-										aria-label="LinkedIn"><i class="icon-linkedin2"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-label">About</div>
+    <h2 class="section-title">The operator.</h2>
+    <p class="section-sub">I build robust information systems — balancing maintainable architecture, practical UI, and delivery speed.</p>
+    <div class="about-grid">
+      <div class="card">
+        <h3><span>01</span> Day job</h3>
+        <p>Currently at <strong style="color:var(--text);font-weight:500">CV. Prima Group</strong>, delivering platforms that run real workloads — Mojokerto's legal documentation system, spatial planning tools, and budget data platforms for city government.</p>
+      </div>
+      <div class="card">
+        <h3><span>02</span> Beyond</h3>
+        <p>Pulled toward philosophy &amp; computer science, Rust-based desktop tools (Tauri), and LLM-powered agent workflows that actually do things.</p>
+      </div>
+    </div>
+    <div style="margin-top:1.5rem">
+      <p style="font-size:.75rem;color:var(--dim);margin-bottom:.75rem">FOCUS AREAS</p>
+      <div class="tags">
+        <span class="tag">Enterprise Apps</span>
+        <span class="tag">Public Service Platforms</span>
+        <span class="tag">Mobile Delivery</span>
+        <span class="tag">Desktop Applications</span>
+        <span class="tag">AI Agent Tooling</span>
+        <span class="tag">System Integration</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<div id="fh5co-resume" class="fh5co-bg-color">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Resume</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0">
-						<ul class="timeline">
-							<li class="timeline-heading text-center animate-box">
-								<div>
-									<h3>Work Experience</h3>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">FullStack Developer</h3>
-										<span class="company">CV. PRIMA GROUP - 2020 - Current</span>
-									</div>
-									<div class="timeline-body">
-										<p>Mojokerto, Jawa Timur, Indonesia.</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">IT Support Technician</h3>
-										<span class="company">BLKK Wahid Hasyim - 2019 - 2020</span>
-									</div>
-									<div class="timeline-body">
-										<p>Depok, Jawa Barat, Indonesia.</p>
-									</div>
-								</div>
-							</li>
+<!-- RESUME -->
+<section id="resume">
+  <div class="container">
+    <div class="section-label">Resume</div>
+    <h2 class="section-title">The trajectory.</h2>
+    <p class="section-sub">Five years compounding. Each role tightened the focus on shipping systems that hold up under real load.</p>
+    <div class="timeline">
+      <div class="tl-item work">
+        <div class="tl-dot"></div>
+        <div class="tl-meta">2020 — Current</div>
+        <h3 class="tl-title">FullStack Developer</h3>
+        <div class="tl-org">CV. Prima Group · Mojokerto</div>
+        <p class="tl-desc">Delivering enterprise information systems for government institutions. Building web platforms, mobile apps, and operational dashboards using React, React Native, Laravel, and CodeIgniter.</p>
+      </div>
+      <div class="tl-item work">
+        <div class="tl-dot"></div>
+        <div class="tl-meta">2019 — 2020</div>
+        <h3 class="tl-title">IT Support Technician</h3>
+        <div class="tl-org">BLKK Wahid Hasyim · Depok</div>
+        <p class="tl-desc">Provided technical support, network maintenance, and system administration for training operations.</p>
+      </div>
+      <div class="tl-item edu">
+        <div class="tl-dot" style="border-color:var(--accent3)"></div>
+        <div class="tl-meta">2020 — 2024</div>
+        <h3 class="tl-title">Bachelor's — Informatics</h3>
+        <div class="tl-org">Hasyim Asy'ari University · Jombang</div>
+      </div>
+      <div class="tl-item edu">
+        <div class="tl-dot" style="border-color:var(--accent3)"></div>
+        <div class="tl-meta">2018 — 2019</div>
+        <h3 class="tl-title">Diploma — Software Engineering</h3>
+        <div class="tl-org">Magistra Utama Surabaya</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-							<br>
-							<li class="timeline-heading text-center animate-box">
-								<div>
-									<h3>Education</h3>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Bachelors Degree</h3>
-										<span class="company">Hasyim Asy'ari University - 2020 - 2024</span>
-									</div>
-									<div class="timeline-body">
-										<p>Jombang, Jawa Timur, Indonesia.</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Diploma Course</h3>
-										<span class="company">Magistra Utama Surabaya - 2018 - 2019</span>
-									</div>
-									<div class="timeline-body">
-										<p>Surabaya, Jawa Timur, Indonesia.</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Senior High School</h3>
-										<span class="company">SMK Roudlotun Nasyiin - 2015 - 2018</span>
-									</div>
-									<div class="timeline-body">
-										<p>Mojokerto, Jawa Timur, Indonesia.</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">Stack</div>
+    <h2 class="section-title">The toolbox.</h2>
+    <p class="section-sub">Built over five years across web, mobile, desktop, and AI agent projects.</p>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </div>
+</section>
 
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label">Work</div>
+    <h2 class="section-title">The archive.</h2>
+    <p class="section-sub">Featured open-source tools built in public, plus production systems shipped for government and enterprise.</p>
+    <div class="projects-grid" id="projectsGrid"></div>
+    <div style="margin-top:1rem">
+      <p style="font-size:.75rem;color:var(--dim);margin-bottom:.75rem">MORE WORK</p>
+      <div id="moreProjects"></div>
+    </div>
+  </div>
+</section>
 
-		<!-- <div id="fh5co-features" class="animate-box">
-			<div class="container">
-				<div class="services-padding">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>My Services</h2>
-						</div>
-					</div>
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Let's <span class="gradient-text">connect.</span></h2>
+    <p class="section-sub">Open to work, collaborations, and interesting problems. Reach out — I respond fast.</p>
+    <div class="contact-grid">
+      <a href="mailto:fadhdeveloper@gmail.com" class="contact-card">
+        <div class="c-label">Email</div>
+        <div class="c-value">fadhdeveloper@gmail.com</div>
+      </a>
+      <a href="tel:+6285117126189" class="contact-card">
+        <div class="c-label">Phone</div>
+        <div class="c-value">+62 851-1712-6189</div>
+      </a>
+      <div class="contact-card">
+        <div class="c-label">Location</div>
+        <div class="c-value">Mojokerto, Jawa Timur</div>
+      </div>
+    </div>
+    <div class="social" style="justify-content:center;margin-bottom:2rem">
+      <a href="https://github.com/wildanfadh" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+      <a href="https://linkedin.com/in/wildan-fadhlulloh" target="_blank" rel="noopener" aria-label="LinkedIn">LI</a>
+      <a href="https://twitter.com/wildanfadh" target="_blank" rel="noopener" aria-label="Twitter">X</a>
+    </div>
+    <div class="footer-meta">
+      &copy; 2026 wildan_fadhlulloh · built with html, css, js
+    </div>
+  </div>
+</section>
 
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<i class="icon-paintbrush"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Web Design</h3>
-									<p>2+ years work experience</p>
-								</div>
-							</div>
-						</div>
+<a href="#" class="scroll-top" aria-label="Back to top">↑</a>
 
-						<div class="col-md-4 text-center">
+<script>
+// ===== DATA =====
+const skills = [
+  {name:'React 19',level:95},{name:'TypeScript',level:90},{name:'Tailwind v4',level:90},
+  {name:'Vite',level:85},{name:'Redux / Saga',level:85},{name:'Zustand',level:80},
+  {name:'React Native',level:85},{name:'NativeBase',level:80},{name:'React Navigation',level:85},
+  {name:'Firebase FCM',level:70},{name:'Tauri 2',level:80},{name:'Rust',level:70},
+  {name:'Node.js / Express',level:85},{name:'Laravel / PHP',level:85},{name:'Go / Echo',level:65},
+  {name:'MongoDB',level:70},{name:'PostgreSQL',level:75},{name:'MySQL',level:85},
+  {name:'LLM Integration',level:75},{name:'Vercel AI SDK',level:70},{name:'Agent Tooling',level:80},
+  {name:'Bun',level:70},{name:'Docker',level:70},{name:'Linux / systemd',level:75},
+];
 
-							<div class="feature-left">
-								<span class="icon">
-									<i class="icon-bargraph"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Web Developent</h3>
-									<p>4.5+ years work experience</p>
-								</div>
-							</div>
+const featured = [
+  {title:'lampd',desc:'Linux desktop app for managing dev services (Apache, Nginx, MySQL, PostgreSQL, Docker). Built with Tauri 2 + React 19 + Rust.',tech:['Tauri 2','React 19','Rust','Zustand'],repo:'https://github.com/wildanfadh/lampd'},
+  {title:'mysql-control',desc:'Minimalist Tauri desktop app for controlling MySQL systemd service on Linux.',tech:['Tauri 2','React 18','Rust','TypeScript'],repo:'https://github.com/wildanfadh/mysql-control'},
+  {title:'EasyShop',desc:'E-commerce frontend with auth, product carousel, responsive design. React, Redux, Tailwind.',tech:['React','Redux','TypeScript','Tailwind'],repo:'https://github.com/wildanfadh/EasyShop'},
+  {title:'anggor',desc:'CLI-based AI coding agent — fast, local-first, provider-agnostic. Context-aware project scanner, autonomous file manipulation.',tech:['TypeScript','Vercel AI SDK','Bun','Anthropic'],repo:'https://github.com/wildanfadh/anggor'},
+];
 
-						</div>
+const others = [
+  {title:'SimpleNewsApp',tech:['React Native','TypeScript','NativeBase']},
+  {title:'EPasar',tech:['React Native','Redux Saga','NativeBase']},
+  {title:'golang_crud_api',tech:['Go','Echo','MongoDB']},
+  {title:'JDIH Mojokerto',tech:['CodeIgniter','jQuery','MySQL'],link:'https://jdih.mojokertokota.go.id'},
+  {title:'Simoneva',tech:['Angular','CoreUI','MySQL']},
+  {title:'Sipandu',tech:['Laravel','Leaflet','PostgreSQL']},
+  {title:'PintarMoker',tech:['Laravel','Leaflet','MySQL']},
+  {title:'Dikupasi Mobile',tech:['React Native','TypeScript','Android']},
+];
 
-						<div class="col-md-4 text-center">
+// ===== RENDER SKILLS =====
+const sg = document.getElementById('skillsGrid');
+skills.forEach((s,i)=>{
+  const el = document.createElement('div'); el.className = 'skill-item animate'; el.style.animationDelay = (i*30)+'ms';
+  el.innerHTML = `<div class="skill-name">${s.name}</div>
+    <div class="skill-level">${s.level}%</div>
+    <div class="skill-bar"><div class="skill-bar-fill" style="width:0"></div></div>`;
+  sg.appendChild(el);
+});
 
-							<div class="feature-left">
-								<span class="icon">
-									<i class="icon-phone"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Mobile Developent</h3>
-									<p>1+ years work experience</p>
-								</div>
-							</div>
+// ===== RENDER PROJECTS =====
+const pg = document.getElementById('projectsGrid');
+featured.forEach((p,i)=>{
+  const el = document.createElement('div'); el.className = 'project-card animate';
+  el.style.animationDelay = (i*60)+'ms';
+  el.innerHTML = `<div class="proj-num">${String(i+1).padStart(2,'0')} / featured</div>
+    <h3>${p.title}</h3>
+    <p>${p.desc}</p>
+    <div class="proj-tech">${p.tech.map(t=>`<span>${t}</span>`).join('')}</div>
+    <a href="${p.repo}" target="_blank" rel="noopener" class="proj-link">view code →</a>`;
+  pg.appendChild(el);
+});
 
-						</div>
-					</div>
+const mp = document.getElementById('moreProjects');
+others.forEach((p,i)=>{
+  const el = document.createElement('div'); el.className = 'card animate'; el.style.animationDelay = (i*30)+'ms';
+  el.style.cssText += 'display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem;padding:.8rem 1.2rem';
+  const tags = p.tech.slice(0,2).map(t=>`<span style="font-size:.65rem;color:var(--accent);font-family:JetBrains Mono,monospace;background:rgba(124,111,247,.1);padding:.1rem .45rem;border-radius:4px">${t}</span>`).join('');
+  el.innerHTML = `<div>
+    <div style="font-size:.82rem;font-weight:500;color:var(--text)">${p.title}</div>
+  </div>
+  <div style="display:flex;gap:.3rem;align-items:center">
+    ${tags}
+    ${p.link?`<a href="${p.link}" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:none;font-size:.75rem">→</a>`:''}
+  </div>`;
+  mp.appendChild(el);
+});
 
+// ===== SCROLL ANIMATIONS =====
+const obs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target)}
+  });
+},{threshold:.05});
+document.querySelectorAll('.animate,.animate-fade').forEach(el=>obs.observe(el));
 
-
-				</div>
-			</div>
-		</div> -->
-
-		<div id="fh5co-skills" class="animate-box">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Skills</h2>
-					</div>
-				</div>
-				<div class="row row-pb-md">
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="90"><span><strong>HTML5</strong>90%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="90"><span><strong>CSS3</strong>90%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="80"><span><strong>jQuery</strong>80%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="80"><span><strong>PHP</strong>80%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="80"><span><strong>JavaScript</strong>80%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="65"><span><strong>TypeScript</strong>65%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="75"><span><strong>MySQL</strong>75%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="80"><span><strong>Laravel</strong>80%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="80"><span><strong>Codeigniter 3</strong>80%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="70"><span><strong>ReactJs</strong>70%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="75"><span><strong>React Native</strong>75%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="65"><span><strong>NestJs</strong>65%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="45"><span><strong>PostgreSQL</strong>45%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="65"><span><strong>Proxmox Server</strong>65%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="60"><span><strong>Firebase FCM</strong>60%</span></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="70"><span><strong>VPS Cloud</strong>70%</span></div>
-					</div>
-				</div>
-				<!-- <div class="row">
-					<div class="col-md-6">
-						<div class="progress-wrap">
-							<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								</div>
-							</div>
-						</div>
-						<div class="progress-wrap">
-							<h3><span class="name-left">ReactNative</span><span class="value-right">90%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								</div>
-							</div>
-						</div>
-						<div class="progress-wrap">
-							<h3><span class="name-left">PHP</span><span class="value-right">80%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								</div>
-							</div>
-						</div>
-						<div class="progress-wrap">
-							<h3><span class="name-left">ReactJs</span><span class="value-right">85%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="progress-wrap">
-							<h3><span class="name-left">Design</span><span class="value-right">100%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								</div>
-							</div>
-						</div>
-						<div class="progress-wrap">
-							<h3><span class="name-left">Ruby</span><span class="value-right">70%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								</div>
-							</div>
-						</div>
-						<div class="progress-wrap">
-							<h3><span class="name-left">Python</span><span class="value-right">85%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								</div>
-							</div>
-						</div>
-						<div class="progress-wrap">
-							<h3><span class="name-left">jQuery</span><span class="value-right">75%</span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-			</div>
-		</div>
-
-		<!-- <div id="fh5co-work" class="fh5co-bg-dark">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Work and Contribution</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://jdih.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/jdih.png);">
-							<div class="desc">
-								<h3>JDIH</h3>
-								<span>Legal Documentation and Information Network Management System</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simple.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/simple.png);">
-							<div class="desc">
-								<h3>Simple</h3>
-								<span>Sistem Informasi Manajemen Plan Center adalah Sistem Informasi yang membantu
-									menyediakan data dan informasi pembangunan daerah, sebagai bahan dokumen
-									perencanaan.
-								</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simoneva.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/simoneva.png);">
-							<div class="desc">
-								<h3>Simoneva</h3>
-								<span>Sistem Informasi Monitoring dan Evaluasi Bappedalitbang Kota Mojokerto</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simsan-aladin.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/simsan-aladin.png);">
-							<div class="desc">
-								<h3>Simsan Aladin</h3>
-								<span>Sistem Informasi Manajemen Data Sanitasi Kota Mojokerto</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://sipelita.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/sipelita.png);">
-							<div class="desc">
-								<h3>Sipelita</h3>
-								<span>Sistem Informasi Penelitian, Pengembangan dan Inovasi Mojokerto Kota</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://magis.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/magis.png);">
-							<div class="desc">
-								<h3>Magis</h3>
-								<span>Sistem Informasi yang menyajikan data dan informasi geospasial yang mendukung
-									proses perencanaan pembangunan.</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://sibima.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/sibima.png);">
-							<div class="desc">
-								<h3>Si Bima Majapahit</h3>
-								<span>Sistem Informasi Bina Marga Menjaga Jalan Mantap Dengan Aksi Pembangunan Dan
-									Pemeliharaan Infrastruktur Terencana Dinas PUPR Kota Mojokerto</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://reminder.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/reminder2.png);">
-							<div class="desc">
-								<h3>Reminder</h3>
-								<span>Sistem Informasi Manajemen Data Anggaran Kota Madiun</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://veronja.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/veronja2.png);">
-							<div class="desc">
-								<h3>Veronja</h3>
-								<span>Sistem Informasi Verifikasi Online Pertangungjawaban Belanja Bappedalitbang Kota
-									Mojokerto</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://sipandu.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/sipandu.png);">
-							<div class="desc">
-								<h3>Sipandu</h3>
-								<span>Sistem Informasi Penanggulangan Kemiskinan Terpadu</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://pintarmoker.mojokertokota.go.id/" class="work"
-							style="background-image: url(images/portofolio/pintarmoker.png);">
-							<div class="desc">
-								<h3>PintarMoker</h3>
-								<span>Sistem Informasi Tata Ruang yang mudah diakses oleh Masyarakat, yang berfungsi
-									sebagai perencanaan, pemanfaatan dan pengendalian tata ruang</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://play.google.com/store/apps/details?id=com.dikupasi.dikupasi_app" class="work"
-							style="background-image: url(images/portofolio/dikupasi.jpg);">
-							<div class="desc">
-								<h3>Dikupasi Mobile</h3>
-								<span>Sistem Informasi Pendataan IKM/UMKM, Perdagangan dan Koperasi</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://drive.google.com/drive/folders/1VV8eRshOA8E6wdp3j0492kN9R8YHZP0m?usp=sharing"
-							class="work" style="background-image: url(images/portofolio/sipandu_mobile.jpg);">
-							<div class="desc">
-								<h3>Sipandu Mobile</h3>
-								<span>Sistem Informasi Penanggulangan Kemiskinan Terpadu Mobile (Unpublished)</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://hsse.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/hsse.png);">
-							<div class="desc">
-								<h3>HSSE</h3>
-								<span>Sistem Informasi Manajemen Kecelakaan Kerja</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://hsse.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/asmas.png);">
-							<div class="desc">
-								<h3>ASMAS</h3>
-								<span>Sistem Informasi Manajemen Aspirasi Masyarakat</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://hsse.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/iphi.png);">
-							<div class="desc">
-								<h3>IPHI</h3>
-								<span>Sistem Informasi Organisasi Ikatan Persaudaraan Haji Indonesia Kota
-									Mojokerto</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://hsse.primasoft.co.id/" class="work"
-							style="background-image: url(images/portofolio/esakip.png);">
-							<div class="desc">
-								<h3>ESAKIP</h3>
-								<span>Sistem Akuntabilitas Kinerja Instansi Pemerintah</span>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<div id="fh5co-work" class="fh5co-bg-dark">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Selected Projects</span>
-						<h2>Work and Contribution</h2>
-						<p>Highlighted systems delivered for government, internal operations, and mobile experiences,
-							now with explicit technology stack details for each project.</p>
-					</div>
-				</div>
-				<div class="row modern-work-grid">
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://jdih.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/jdih.png);">
-							<div class="desc">
-								<h3>JDIH</h3>
-								<span>Legal Documentation and Information Network Management System for Mojokerto
-									City</span>
-								<div class="tech-stack">
-									<span>Codeigniter</span><span>jQuery</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simple.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/simple.png);">
-							<div class="desc">
-								<h3>Simple</h3>
-								<span>Plan Center Management Information System that provides regional development data
-									and
-									information as planning documents.</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>jQuery</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simoneva.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/simoneva.png);">
-							<div class="desc">
-								<h3>Simoneva</h3>
-								<span>Monitoring and Evaluation Information System for Bappedalitbang Mojokerto
-									City</span>
-								<div class="tech-stack">
-									<span>Angular</span><span>CoreUI</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://simsan-aladin.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/simsan-aladin.png);">
-							<div class="desc">
-								<h3>Simsan Aladin</h3>
-								<span>Sanitation Data Management Information System for Mojokerto City</span>
-								<div class="tech-stack">
-									<span>Codeigniter</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://sipelita.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/sipelita.png);">
-							<div class="desc">
-								<h3>Sipelita</h3>
-								<span>Research, Development, and Innovation Information System for Mojokerto City</span>
-								<div class="tech-stack">
-									<span>Codeigniter</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://magis.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/magis.png);">
-							<div class="desc">
-								<h3>Magis</h3>
-								<span>Information system that presents geospatial data and information to support
-									regional
-									development planning.</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://sibima.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/sibima.png);">
-							<div class="desc">
-								<h3>Si Bima Majapahit</h3>
-								<span>Road Management Information System for maintaining road quality through planned
-									infrastructure development and maintenance by the Public Works Department of
-									Mojokerto
-									City</span>
-								<div class="tech-stack">
-									<span>CodeIgniter</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://reminder.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/reminder2.png);">
-							<div class="desc">
-								<h3>Reminder</h3>
-								<span>Budget Data Management Information System for Madiun City</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://veronja.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/veronja2.png);">
-							<div class="desc">
-								<h3>Veronja</h3>
-								<span>Budget Data Management Information System for Mojokerto City</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>jQuery</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://sipandu.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/sipandu.png);">
-							<div class="desc">
-								<h3>Sipandu</h3>
-								<span>Integrated Poverty Alleviation Information System</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>Leaflet</span><span>REST API</span><span>PostgreSQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://pintarmoker.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/pintarmoker.png);">
-							<div class="desc">
-								<h3>PintarMoker</h3>
-								<span>Publicly accessible Spatial Planning Information System for urban planning, land
-									use, and
-									spatial control</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>Leaflet</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://play.google.com/store/apps/details?id=com.dikupasi.dikupasi_app"
-							class="work modern-work-card"
-							style="background-image: url(images/portofolio/dikupasi.jpg);">
-							<div class="desc">
-								<h3>Dikupasi Mobile</h3>
-								<span>Data Collection Information System for Small &amp; Medium Enterprises, Trade, and
-									Cooperatives</span>
-								<div class="tech-stack">
-									<span>React Native</span><span>TypeScript</span><span>Android</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://drive.google.com/drive/folders/1VV8eRshOA8E6wdp3j0492kN9R8YHZP0m?usp=sharing"
-							class="work modern-work-card"
-							style="background-image: url(images/portofolio/sipandu_mobile.jpg);">
-							<div class="desc">
-								<h3>Sipandu Mobile</h3>
-								<span>Integrated Poverty Alleviation Information System — Mobile App
-									(Unpublished)</span>
-								<div class="tech-stack">
-									<span>React Native</span><span>TypeScript</span><span>Android</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://hsse.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/hsse.png);">
-							<div class="desc">
-								<h3>HSSE</h3>
-								<span>Workplace Accident Management Information System</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>AdminLTE</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://asmas.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/asmas.png);">
-							<div class="desc">
-								<h3>ASMAS</h3>
-								<span>Community Aspirations Management Information System</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://iphi.primasoft.co.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/iphi.png);">
-							<div class="desc">
-								<h3>IPHI</h3>
-								<span>Organizational Information System for the Indonesian Hajj Brotherhood Association,
-									Mojokerto City</span>
-								<div class="tech-stack">
-									<span>Laravel</span><span>Admin Panel</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://esakip.mojokertokota.go.id/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/esakip.png);">
-							<div class="desc">
-								<h3>ESAKIP</h3>
-								<span>Government Agency Performance Accountability System</span>
-								<div class="tech-stack">
-									<span>Codeigniter</span><span>Bootstrap</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="http://103.142.224.34:8111/" class="work modern-work-card"
-							style="background-image: url(images/portofolio/niboard.png);">
-							<div class="desc">
-								<h3>NIBOARD</h3>
-								<span>Online Store Product management with credit recording history feature</span>
-								<div class="tech-stack">
-									<span>NestJS</span><span>ReactJs</span><span>MySQL</span>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- <div id="fh5co-blog">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Post on Medium</h2>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
-							provident. Odit ab aliquam dolor eius.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
-							<div class="blog-text">
-								<span class="posted_on">Mar. 15th 2016</span>
-								<h3><a href="#">Photoshoot On The Street</a></h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and
-									Consonantia, there live the blind texts.</p>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>249</li>
-									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
-							<div class="blog-text">
-								<span class="posted_on">Mar. 15th 2016</span>
-								<h3><a href="#">Surfing at Philippines</a></h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and
-									Consonantia, there live the blind texts.</p>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>249</li>
-									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
-							<div class="blog-text">
-								<span class="posted_on">Mar. 15th 2016</span>
-								<h3><a href="#">Capture Living On Uderwater</a></h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and
-									Consonantia, there live the blind texts.</p>
-								<ul class="stuff">
-									<li><i class="icon-heart2"></i>249</li>
-									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<div id="fh5co-started" class="fh5co-bg-dark">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Hire Me!</h2>
-						<p>Open to Work</p>
-						<!-- <p><a href="https://wa.me/+6285733150938" class="btn btn-default btn-lg">Contact Me</a></p> -->
-						<p><a href="mailto:fadhdeveloper@gmail.com" class="btn btn-default btn-lg">Contact Me</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- <div id="fh5co-consult">
-			<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-				<div class="overlay"></div>
-			</div>
-			<div class="choose animate-box">
-				<h2>Contact</h2>
-				<form action="#">
-					<div class="row form-group">
-						<div class="col-md-6">
-							<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-						</div>
-					</div>
-					<div class="row form-group">
-						<div class="col-md-6">
-							<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-						</div>
-					</div>
-
-					<div class="row form-group">
-						<div class="col-md-12">
-							<input type="text" id="email" class="form-control" placeholder="Your email address">
-						</div>
-					</div>
-
-					<div class="row form-group">
-						<div class="col-md-12">
-							<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-						</div>
-					</div>
-
-					<div class="row form-group">
-						<div class="col-md-12">
-							<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-						</div>
-					</div>
-					<div class="form-group">
-						<input type="submit" value="Send Message" class="btn btn-primary">
-					</div>
-
-				</form>
-			</div>
-		</div> -->
-
-		<!-- <div id="map" class="fh5co-map"></div> -->
-	</div>
-
-	<!-- <div id="fh5co-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>&copy; 2017 . All Rights Reserved.</p>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop" aria-label="Back to top"><i class="icon-arrow-up22"></i></a>
-	</div>
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map (disabled - map section commented out)
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVsmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-	-->
-
-	<!-- Main -->
-	<script src="js/main.js"></script>
-
+// ===== SKILL BAR ANIMATION ON SCROLL =====
+const skillObs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const fill = e.target.querySelector('.skill-bar-fill');
+      const lvl = e.target.querySelector('.skill-level');
+      if(fill && lvl){
+        const pct = parseInt(lvl.textContent);
+        setTimeout(()=>{fill.style.transition='width .8s cubic-bezier(.22,1,.36,1)';fill.style.width=pct+'%'},100);
+      }
+      skillObs.unobserve(e.target);
+    }
+  });
+},{threshold:.05});
+document.querySelectorAll('.skill-item').forEach(el=>skillObs.observe(el));
+</script>
 </body>
-
 </html>
