@@ -442,7 +442,7 @@ nav .inner{
   <div class="container">
     <div class="section-label">Work</div>
     <h2 class="section-title">The archive.</h2>
-    <p class="section-sub">Featured open-source tools built in public, plus production systems shipped for government and enterprise.</p>
+    <p class="section-sub">Open-source tools from my GitHub (incl. org repos), plus production systems shipped for government and enterprise.</p>
     <div class="projects-grid" id="projectsGrid"></div>
     <div style="margin-top:1rem">
       <p style="font-size:.75rem;color:var(--dim);margin-bottom:.75rem">MORE WORK</p>
@@ -497,22 +497,35 @@ const skills = [
   {name:'Bun',level:70},{name:'Docker',level:70},{name:'Linux / systemd',level:75},
 ];
 
+// Open-source featured (own repos + org repos)
 const featured = [
-  {title:'lampd',desc:'Linux desktop app for managing dev services (Apache, Nginx, MySQL, PostgreSQL, Docker). Built with Tauri 2 + React 19 + Rust.',tech:['Tauri 2','React 19','Rust','Zustand'],repo:'https://github.com/wildanfadh/lampd'},
-  {title:'mysql-control',desc:'Minimalist Tauri desktop app for controlling MySQL systemd service on Linux.',tech:['Tauri 2','React 18','Rust','TypeScript'],repo:'https://github.com/wildanfadh/mysql-control'},
-  {title:'EasyShop',desc:'E-commerce frontend with auth, product carousel, responsive design. React, Redux, Tailwind.',tech:['React','Redux','TypeScript','Tailwind'],repo:'https://github.com/wildanfadh/EasyShop'},
-  {title:'anggor',desc:'CLI-based AI coding agent — fast, local-first, provider-agnostic. Context-aware project scanner, autonomous file manipulation.',tech:['TypeScript','Vercel AI SDK','Bun','Anthropic'],repo:'https://github.com/wildanfadh/anggor'},
+  {title:'lampd',desc:'Linux desktop app for managing dev services (Apache, Nginx, MySQL, PostgreSQL, Docker). Built with Tauri 2 + React 19 + Rust.',tech:['Tauri 2','React 19','Rust','Zustand'],repo:'https://github.com/wildanfadh/lampd',org:'wildanfadh'},
+  {title:'mysql-control',desc:'Minimalist Tauri desktop app for controlling MySQL systemd service on Linux.',tech:['Tauri 2','React 18','Rust','TypeScript'],repo:'https://github.com/wildanfadh/mysql-control',org:'wildanfadh'},
+  {title:'EasyShop',desc:'E-commerce frontend with auth, product carousel, responsive design. React, Redux, Tailwind.',tech:['React','Redux','TypeScript','Tailwind'],repo:'https://github.com/wildanfadh/EasyShop',org:'wildanfadh'},
+  {title:'anggor',desc:'CLI-based AI coding agent — fast, local-first, provider-agnostic. Context-aware project scanner, autonomous file manipulation.',tech:['TypeScript','Vercel AI SDK','Bun','Anthropic'],repo:'https://github.com/wildanfadh/anggor',org:'wildanfadh'},
+  {title:'pi-skill-ui-ux-tester',desc:'UI/UX Tester skill for Pi — comprehensive testing & audit based on Nielsen\'s Heuristics, WCAG 2.1 AA, and Shneiderman\'s 8 Golden Rules.',tech:['Skill','UI/UX','Pi'],repo:'https://github.com/wildanfadh/pi-skill-ui-ux-tester',org:'wildanfadh'},
+  {title:'rust-learn',desc:'Learning Rust from the ground up — exercises and mini-projects.',tech:['Rust'],repo:'https://github.com/wildanfadh/rust-learn',org:'wildanfadh'},
+  {title:'findhousing',desc:'SPK Perumahan Subsidi menggunakan metode Topsis.',tech:['JavaScript','Topsis'],repo:'https://github.com/wildanfadh/findhousing',org:'wildanfadh'},
+  {title:'agent-scaffold',desc:'Standardized .agent directory scaffold for AI-assisted projects.',tech:['JavaScript','Agent'],repo:'https://github.com/wildanfadh/agent-scaffold',org:'wildanfadh'},
 ];
 
+// Production systems (from Google Sheets) — incl. org/enterprise work
 const others = [
-  {title:'SimpleNewsApp',tech:['React Native','TypeScript','NativeBase']},
-  {title:'EPasar',tech:['React Native','Redux Saga','NativeBase']},
-  {title:'golang_crud_api',tech:['Go','Echo','MongoDB']},
-  {title:'JDIH Mojokerto',tech:['CodeIgniter','jQuery','MySQL'],link:'https://jdih.mojokertokota.go.id'},
-  {title:'Simoneva',tech:['Angular','CoreUI','MySQL']},
-  {title:'Sipandu',tech:['Laravel','Leaflet','PostgreSQL']},
-  {title:'PintarMoker',tech:['Laravel','Leaflet','MySQL']},
-  {title:'Dikupasi Mobile',tech:['React Native','TypeScript','Android']},
+  {title:'Esakip',tech:['SAKIP'],link:'https://esakip.mojokertokota.go.id/',year:'2025',desc:'Government Agency Performance Accountability System'},
+  {title:'Steril App',tech:['React Native','Android'],link:'https://hsse.primasoft.co.id/',year:'2025',desc:'Sterilization management & monitoring — History Duty & Vehicle Tracking'},
+  {title:'HSSE',tech:['Laravel','MySQL'],link:'https://hsse.primasoft.co.id/',year:'2023',desc:'K3 Management for PT Pelabuhan Indonesia (Pelindo)'},
+  {title:'Asmas',tech:['Laravel','MySQL'],link:'https://asmas.primasoft.co.id/',year:'2025',desc:'Community Aspirations Management System'},
+  {title:'Pintar Moker',tech:['Laravel','Leaflet'],link:'https://pintarmoker.mojokertokota.go.id/',year:'2024',desc:'Public Spatial Planning Information System'},
+  {title:'Simoneva',tech:['Angular','CoreUI'],link:'https://simoneva.mojokertokota.go.id/',year:'2025',desc:'Monitoring & Evaluation for Bappedalitbang Mojokerto'},
+  {title:'JDIH',tech:['CodeIgniter','MySQL'],link:'https://jdih.mojokertokota.go.id/',year:'2020',desc:'Legal Documentation & Information Network'},
+  {title:'Magis',tech:['Laravel','MySQL'],link:'https://magis.mojokertokota.go.id/',year:'2022',desc:'Geospatial data & development planning'},
+  {title:'Sibima',tech:['CodeIgniter','MySQL'],link:'https://sibima.mojokertokota.go.id/',year:'2023',desc:'Road management & infrastructure'},
+  {title:'Sipelita',tech:['CodeIgniter','MySQL'],link:'https://sipelita.mojokertokota.go.id/',year:'2023',desc:'Research, Development & Innovation'},
+  {title:'Simple New',tech:['Laravel','MySQL'],link:'https://simple.primasoft.co.id/',year:'2022',desc:'Plan Center Management System'},
+  {title:'Simoneva Landing',tech:['Web'],link:'https://simoneva.mojokertokota.go.id/',year:'2024',desc:'Landing page for Simoneva'},
+  {title:'SimpleNewsApp',tech:['React Native','TypeScript','NativeBase'],repo:'https://github.com/wildanfadh/SimpleNewsApp'},
+  {title:'EPasar',tech:['React Native','Redux Saga'],repo:'https://github.com/wildanfadh/EPasar'},
+  {title:'golang_crud_api',tech:['Go','Echo','MongoDB'],repo:'https://github.com/wildanfadh/golang_crud_api'},
 ];
 
 // ===== RENDER SKILLS =====
@@ -530,7 +543,7 @@ const pg = document.getElementById('projectsGrid');
 featured.forEach((p,i)=>{
   const el = document.createElement('div'); el.className = 'project-card animate';
   el.style.animationDelay = (i*60)+'ms';
-  el.innerHTML = `<div class="proj-num">${String(i+1).padStart(2,'0')} / featured</div>
+  el.innerHTML = `<div class="proj-num">${String(i+1).padStart(2,'0')} / featured${p.org&&p.org!=='wildanfadh'?` <span style="color:var(--accent3)">· org:${p.org}</span>`:''}</div>
     <h3>${p.title}</h3>
     <p>${p.desc}</p>
     <div class="proj-tech">${p.tech.map(t=>`<span>${t}</span>`).join('')}</div>
@@ -541,14 +554,16 @@ featured.forEach((p,i)=>{
 const mp = document.getElementById('moreProjects');
 others.forEach((p,i)=>{
   const el = document.createElement('div'); el.className = 'card animate'; el.style.animationDelay = (i*30)+'ms';
-  el.style.cssText += 'display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem;padding:.8rem 1.2rem';
+  el.style.cssText += 'display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:.5rem;padding:.8rem 1.2rem';
+  const href = p.link || p.repo || '#';
   const tags = p.tech.slice(0,2).map(t=>`<span style="font-size:.65rem;color:var(--accent);font-family:JetBrains Mono,monospace;background:rgba(124,111,247,.1);padding:.1rem .45rem;border-radius:4px">${t}</span>`).join('');
-  el.innerHTML = `<div>
-    <div style="font-size:.82rem;font-weight:500;color:var(--text)">${p.title}</div>
+  el.innerHTML = `<div style="min-width:0">
+    <div style="font-size:.82rem;font-weight:500;color:var(--text)">${p.title}${p.year?` <span style="font-size:.65rem;color:var(--dim);font-family:JetBrains Mono,monospace">${p.year}</span>`:''}</div>
+    ${p.desc?`<div style="font-size:.72rem;color:var(--dim);margin-top:.15rem">${p.desc}</div>`:''}
   </div>
-  <div style="display:flex;gap:.3rem;align-items:center">
+  <div style="display:flex;gap:.3rem;align-items:center;flex-shrink:0">
     ${tags}
-    ${p.link?`<a href="${p.link}" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:none;font-size:.75rem">→</a>`:''}
+    ${href!=='#'?`<a href="${href}" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:none;font-size:.75rem;padding:.25rem">→</a>`:''}
   </div>`;
   mp.appendChild(el);
 });
